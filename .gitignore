@@ -1,0 +1,16 @@
+# تجاهل مجلد البيئة الافتراضية
+venv/
+
+# تجاهل مجلد __pycache__ (يتم إنشاؤه تلقائيًا بواسطة Python)
+__pycache__/
+
+.env
+.env.*
+
+.vscode/
+.idea/
+
+*.egg-info/
+dist/
+build/
+
