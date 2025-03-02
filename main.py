@@ -71,8 +71,8 @@ async def analyze_skin_details(details_file: UploadFile = File(...)):
     percentages = details_prediction * 100
 
     return {
-        "pigmentation": round(float(percentages[0]), 2),
-        "wrinkles": round(float(percentages[1]), 2),
+        "wrinkles": round(float(percentages[0]), 2),
+        "pigmentation": round(float(percentages[1]), 2),
         "acne": round(float(percentages[2]), 2),
         "normal": round(float(percentages[3]), 2),
     }
